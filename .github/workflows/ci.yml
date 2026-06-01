@@ -25,4 +25,4 @@ jobs:
 
     - name: Run All Automated Tests & Quality Metrics
       # Mengeksekusi seluruh pengujian di dalam folder tests/ (termasuk SystemTest.php)
-      run: php vendor/bin/phpunit --source src tests/ --coverage-text
+      run: php vendor/bin/phpunit tests/
