@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'lenovo/minggu14',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '11ac7ebbb4d9839e9ce1030735aa8d8f40933b4c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -17,9 +17,9 @@
             ),
         ),
         'lenovo/minggu14' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '11ac7ebbb4d9839e9ce1030735aa8d8f40933b4c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

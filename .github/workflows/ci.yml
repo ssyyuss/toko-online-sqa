@@ -11,7 +11,7 @@ jobs:
     - name: Setup PHP Environment
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '8.1'
+        php-version: '8.2'
         coverage: xdebug # Diperlukan untuk Metrik Coverage
 
     - name: Install PHP Dependencies
@@ -21,8 +21,8 @@ jobs:
       run: php -S localhost:8000 &
 
     - name: Start ChromeDriver in Background
-      run: chromedriver --port=9515 --url-base=wd/hub &
+      run: chromedriver --port=9515 &
 
     - name: Run All Automated Tests & Quality Metrics
       # Mengeksekusi seluruh pengujian di dalam folder tests/ (termasuk SystemTest.php)
-      run: vendor/bin/phpunit tests/ --coverage-text
+      run: php vendor/bin/phpunit tests/
